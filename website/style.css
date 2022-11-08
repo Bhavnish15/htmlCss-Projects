@@ -1,0 +1,123 @@
+.first-div {
+  background-color: cadetblue;
+  width: 300px;
+  height: auto;
+  padding: 30px;
+  margin: 30px;
+  /* outline-style: dashed;
+  outline-width: 5px;
+  outline-color: cornflowerblue;
+  border: 5px solid cyan;
+  outline-offset: 5px; */
+  /* outline: dashed cornflowerblue 5px; */
+  /* outline-offset: 3px; */
+}
+.second-div {
+  width: 350px;
+  height: 300px;
+  padding: 20px;
+  background-color: brown;
+  display: inline-block;
+  overflow: hidden;
+}
+.third-div {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: cadetblue;
+  border: 5px solid slateblue;
+  transition: width 0.2s, height 0.4s;
+  transition-timing-function: ease;
+  text-align: center;
+  overflow: hidden;
+}
+.third-div:hover {
+  width: 300px;
+  height: 300px;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+a {
+  color: crimson;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: brown;
+  color: aqua;
+}
+.hover-div p {
+  display: none;
+  background-color: darkorange;
+  padding: 20px;
+}
+.hover-div:hover p {
+  display: inline-block;
+  padding: 3%;
+}
+.hover-div p::first-line {
+  color: #ff0000;
+}
+h1::after {
+  content: url(/pic-1.png);
+}
+::marker {
+  color: red;
+}
+::selection {
+  color: black;
+  cursor: pointer;
+  outline: 10px #ff0000;
+  background-color: darkgray;
+}
+
+.animate {
+  margin-bottom: 80%;
+  margin-left: 20%;
+  background-color: darkorange;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 2%;
+  animation-name: example;
+  animation-name: bhavnish;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  position: relative;
+}
+@keyframes bhavnish {
+  0% {
+    top: 0%;
+    left: 0%;
+    /* transform: translateY(-30deg); */
+  }
+  30% {
+    left: 20%;
+    /* transform: translateY(-60deg); */
+  }
+  60% {
+    top: 30%;
+    left: 30%;
+    /* transform: translateY(90deg); */
+  }
+  100% {
+    top: 0;
+    right: 0;
+    /* transform: translate(180deg); */
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: violet;
+  }
+}

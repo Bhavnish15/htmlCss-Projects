@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pimg1 {
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(/aloneImg.jpg);
+  min-height: 100%;
+}
+
+.pimg3 {
+  background-image: url(/alone2.jpg);
+  min-height: 100%;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: wheat;
+  font-size: 50px;
+  word-spacing: 4rem;
+  letter-spacing: 1.5rem;
+  font-weight: 800;
+}
+
+.textBg {
+  background-color: #313534;
+  color: white;
+  padding: 20px;
+}
+.section {
+  padding: 50px 80px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: white;
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidenav">
+      <h1>JavaScript Documentation</h1>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#history">Hisory of JavaScript</a></li>
+        <li><a href="#prerequiste">Prerequistes</a></li>
+        <li><a href="#javaScriptandjava">JavaScript and Java</a></li>
+        <li><a href="#helloWrold">Hello World in JavaScript</a></li>
+        <li><a href="#externaljavascript">External JavaScript</a></li>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#variables">Variables</a></li>
+        <li><a href="#datatypes">Data Types</a></li>
+        <li><a href="#operators">Operators</a></li>
+        <li><a href="#conditionalstatements">Conditional Statements</a></li>
+        <li><a href="#loops">Loops in JavaScript</a></li>
+
+        <li><a href="#functions">Functions</a></li>
+        <li><a href="#objects">Objects in JavaSript</a></li>
+        <li><a href="#arrays">Arrays</a></li>
+        <li><a href="#strings">Strings</a></li>
+        <li><a href="#date">Date</a></li>
+        <li><a href="#math">Math</a></li>
+        <li><a href="#number">Number</a></li>
+        <li><a href="#boolean">Boolean</a></li>
+        <li><a href="#bom">Browser Objects</a></li>
+        <li><a href="#dom">Document Object Model</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <div class="intro" id="introduction">
+        <h1>Introduction</h1>
+        <p>
+          JavaScript (js) is a light-weight object-oriented programming language
+          which is used by several websites for scripting the webpages. It is an
+          interpreted, full-fledged programming language that enables dynamic
+          interactivity on websites when applied to an HTML document. It was
+          introduced in the year 1995 for adding programs to the webpages in the
+          Netscape Navigator browser. Since then, it has been adopted by all
+          other graphical web browsers. With JavaScript, users can build modern
+          web applications to interact directly without reloading the page every
+          time. The traditional website uses js to provide several forms of
+          interactivity and simplicity. <br />
+          Although, JavaScript has no connectivity with Java programming
+          language. The name was suggested and provided in the times when Java
+          was gaining popularity in the market. In addition to web browsers,
+          databases such as CouchDB and MongoDB uses JavaScript as their
+          scripting and query language.
+        </p>
+      </div>
+      <div class="history" id="history">
+        <h1>Hisory of JavaScript</h1>
+        <p>
+          In 1993, Mosaic, the first popular web browser, came into existence.
+          In the year 1994, Netscape was founded by Marc Andreessen. He realized
+          that the web needed to become more dynamic. Thus, a 'glue language'
+          was believed to be provided to HTML to make web designing easy for
+          designers and part-time programmers. Consequently, in 1995, the
+          company recruited Brendan Eich intending to implement and embed Scheme
+          programming language to the browser. But, before Brendan could start,
+          the company merged with Sun Microsystems for adding Java into its
+          Navigator so that it could compete with Microsoft over the web
+          technologies and platforms. Now, two languages were there: Java and
+          the scripting language. Further, Netscape decided to give a similar
+          name to the scripting language as Java's. It led to 'Javascript'.
+          Finally, in May 1995, Marc Andreessen coined the first code of
+          Javascript named 'Mocha'. Later, the marketing team replaced the name
+          with 'LiveScript'. But, due to trademark reasons and certain other
+          reasons, in December 1995, the language was finally renamed to
+          'JavaScript'. From then, JavaScript came into existence.
+        </p>
+      </div>
+
+      <div class="prerequisite" id="prerequiste">
+        <h1>Prerequisites</h1>
+        <p>
+          Before starting this module, you don't need any previous JavaScript
+          knowledge, but you should have some familiarity with HTML and CSS. You
+          are advised to work through the following modules before starting on
+          JavaScript:
+        </p>
+      </div>
+
+      <div class="jsandjava" id="javaScriptandjava">
+        <h1>JavaScript and Java</h1>
+        <p>
+          Many users think that Java and java-script are similar languages, or
+          they are two different names of the same language. But the user has to
+          clear his doubt that java-script and java language are not similar
+          languages, and java-script has nothing to do with the java programming
+          language. The main reason for introducing the scripting language as
+          JavaScript is the popularity of java programming language that was at
+          its peak at that time. To get the advantage of the popularity of the
+          term "java" in the java programming language , it was introduced as
+          JavaScript
+        </p>
+      </div>
+
+      <div class="helloworld" id="helloWrold">
+        <h1>Hello World</h1>
+        <p>
+          A "Hello, World!" is a simple program that prints Hello, World! on the
+          screen. Since it's a very simple program, this program is often used
+          to introduce a new programming language to beginners.
+        </p>
+        <em>// the hello world program</em>
+        <span>console.log('Hello World');</span>
+      </div>
+
+      <div class="externaljavascript" id="externaljavascript">
+        <h1>External JavaScript</h1>
+        <p>
+          We can create external JavaScript file and embed it in many html page.
+          <br />
+
+          It provides code re usability because single JavaScript file can be
+          used in several html pages. <br />
+
+          An external JavaScript file must be saved by .js extension. It is
+          recommended to embed all JavaScript files into a single file. It
+          increases the speed of the webpage. Let's create an external
+          JavaScript file that prints Hello Javatpoint in a alert dialog box.
+        </p>
+      </div>
+
+      <div class="comment" id="comments">
+        <h1>Comments</h1>
+        <p>
+          The JavaScript comments are meaningful way to deliver message. It is
+          used to add information about the code, warnings or suggestions so
+          that end user can easily interpret the code. The JavaScript comment is
+          ignored by the JavaScript engine i.e. embedded in the browser.
+        </p>
+        <h3>Advantages of JavaScript comments</h3>
+        <p>
+          <strong> To make code easy to understand</strong> It can be used to
+          elaborate the code so that end user can easily understand the code.
+          <br />
+          <strong> To avoid the unnecessary code </strong> It can also be used
+          to avoid the code being executed. Sometimes, we add the code to
+          perform some action. But after sometime, there may be need to disable
+          the code. In such case, it is better to use comments.
+        </p>
+        <h2>Types of Comments</h2>
+        <h3>There are Two Types of Comments</h3>
+
+        <p>
+          Single-line Comment <br />
+          Multi-line Comment
+        </p>
+      </div>
+
+      <div class="variable" id="variables">
+        <h1>Variables</h1>
+        <p>
+          A JavaScript variable is simply a name of storage location. <br />
+          There are two types of variables in JavaScript : local variable and
+          global variable.
+        </p>
+        <em
+          >var x = 10; <br />
+          var _value="sonoo";
+        </em>
+      </div>
+
+      <div class="datatype" id="datatypes">
+        <h1>Data Types</h1>
+        <p>
+          JavaScript provides different data types to hold different types of
+          values. <br />
+          There are two types of data types in JavaScript.
+        </p>
+        <p>
+          Primitive data type <br />
+          Non-primitive (reference) data type
+        </p>
+        <p>
+          JavaScript is a dynamic type language, means you don't need to specify
+          type of the variable because it is dynamically used by JavaScript
+          engine. You need to use var here to specify the data type. It can hold
+          any type of values such as numbers, strings etc. <br />
+          For example:
+          <em
+            >var a=40;//holding number <br />
+            var b="Rahul";//holding string
+          </em>
+        </p>
+      </div>
+
+      <div class="operator" id="operators">
+        <h1>Operators</h1>
+        <p>
+          JavaScript operators are symbols that are used to perform operations
+          on operands. <br />
+          For example:
+          <em>var sum=10+20; </em>
+        </p>
+        <p>
+          Here, + is the arithmetic operator and = is the assignment operator.
+          <br />There are following types of operators in JavaScript.
+        </p>
+        <p>
+          Arithmetic Operators <br />
+          Comparison (Relational) Operators <br />
+          Bitwise Operators <br />
+          Logical Operators <br />
+          Assignment Operators <br />
+          Special Operators
+        </p>
+      </div>
+
+      <div class="conditional" id="conditionalstatements">
+        <h1>Conditional Statements</h1>
+        <h2>JavaScript If-else</h2>
+        <p>
+          The JavaScript if-else statement is used to execute the code whether
+          condition is true or false. There are three forms of if statement in
+          JavaScript.
+        </p>
+        <p>
+          If Statement <br />
+          If else statement <br />
+          if else if statement
+        </p>
+        <h2>JavaScript Switch</h2>
+        <p>
+          The JavaScript switch statement is used to execute one code from
+          multiple expressions. It is just like else if statement that we have
+          learned in previous page. But it is convenient than if..else..if
+          because it can be used with numbers, characters etc.
+        </p>
+        <em>
+          switch(expression){ <br />
+          case value1: <br />
+          code to be executed; <br />
+          break; <br />
+          case value2: <br />
+          code to be executed; <br />
+          break; <br />
+          ...... <br />
+
+          default: <br />
+          code to be executed if above values are not matched; <br />
+          }
+        </em>
+      </div>
+
+      <div class="loop java" id="loops">
+        <h1>Loops in JavaScript</h1>
+        <p>
+          The JavaScript loops are used to iterate the piece of code using for,
+          while, do while or for-in loops. It makes the code compact. It is
+          mostly used in array.
+        </p>
+        <h2>There are four types of loops in JavaScript.</h2>
+        <p>
+          for loop <br />
+          while loop <br />
+          do-while loop <br />
+          for-in loop
+        </p>
+        <em
+          >for (initialization; condition; increment) <br />
+          { <br />
+          code to be executed <br />
+          }
+        </em>
+      </div>
+
+      <em
+        >while (condition) <br />
+        { <br />
+        code to be executed <br />
+        }
+      </em>
+
+      <em
+        >do{ <br />
+        code to be executed <br />
+        }while (condition);
+      </em>
+
+      <div class="function" id="functions">
+        <h1>Functions</h1>
+        <p>
+          JavaScript functions are used to perform operations. We can call
+          JavaScript function many times to reuse the code.
+        </p>
+        <p>There are mainly two advantages of JavaScript functions.</p>
+        <p>
+          <strong> Code reusability: </strong>We can call a function several
+          times so it save coding <strong> Less coding:</strong> It makes our
+          program compact. We don’t need to write many lines of code each time
+          to perform a common task.
+        </p>
+        <em
+          >function functionName([arg1, arg2, ...argN]){ <br />
+          //code to be executed <br />
+          }
+        </em>
+      </div>
+    </main>
+  </body>
+</html>

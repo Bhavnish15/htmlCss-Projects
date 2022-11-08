@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  line-height: 1.4rem;
+  font-weight: 300;
+}
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 2px 9px grey;
+}
+.navigation ul li {
+  display: inline-block;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Head Section */
+
+.hero {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag {
+  border: 2px solid black;
+  background-color: green;
+  margin: 0 auto;
+  padding: 10px;
+  position: absolute;
+  right: 30.1%;
+  top: 22%;
+  color: white;
+  font-size: 1.3rem;
+}
+.explore-btn {
+  align-self: flex-start;
+  padding: 15px 35px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: gray;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+.explore-btn:hover {
+  box-shadow: 1, 1, 0.5 darkgrey;
+  background-color: black;
+}
+
+.hero-image {
+  margin: 5%;
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+}
+
+.discount {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.discount-voucher,
+.freshFood,
+.delivery {
+  display: flex;
+  transition: 0.2s ease-in-out;
+}
+.discount-voucher img,
+.freshFood img,
+.delivery img {
+  padding: 40px;
+}
+.discount-voucher:hover,
+.freshFood:hover,
+.delivery:hover {
+  box-shadow: 5px 5px 5px darkgray;
+}
+
+.discount-content h1 {
+  font-size: 1.4rem;
+  padding: 25px 0;
+}
+.discount-content {
+  font-size: 20px;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  cursor: pointer;
+  border: 1px solid wheat;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: burlywood;
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  word-spacing: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+/* Grid Images */
+.grid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 6%;
+  align-items: center;
+  justify-content: center;
+}
+.grid-content {
+  display: grid;
+  grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.grid-content img {
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.grid-content img:hover {
+  transform: scale(0.9);
+}
+.grid-image1 {
+  grid-area: I1;
+}
+.grid-image2 {
+  grid-area: I2;
+}
+.grid-image3 {
+  grid-area: I3;
+}
+.grid-image4 {
+  grid-area: I4;
+}
+.grid-image5 {
+  grid-area: I5;
+}
+.grid-image6 {
+  grid-area: I6;
+}
+.grid-image7 {
+  grid-area: I7;
+}
+
+/* Footer */
+.footer {
+  background-color: darkgrey;
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+}
+.main-links ul li {
+  list-style-type: none;
+  padding: 15px;
+}
+.main-links ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.main-link-heading {
+  font-size: 30px;
+  color: brown;
+  margin-bottom: 25px;
+}
+.main-link-support {
+  font-size: 30px;
+  color: brown;
+  margin-bottom: 25px;
+}
+
+.main-links h1 {
+  margin-top: 1rem;
+  color: brown;
+}
+
+.main-links input {
+  margin-top: 4rem;
+  padding: 10px 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
